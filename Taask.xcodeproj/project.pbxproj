@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFA01DE1C0B00D400346537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01DD1C0B00D400346537 /* AppDelegate.swift */; };
+		BFFA01E01C0B00D400346537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01DF1C0B00D400346537 /* ViewController.swift */; };
+		BFFA01E31C0B00D400346537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E11C0B00D400346537 /* Main.storyboard */; };
+		BFFA01E61C0B00D400346537 /* Taask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01E41C0B00D400346537 /* Taask.xcdatamodeld */; };
+		BFFA01E81C0B00D400346537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E71C0B00D400346537 /* Assets.xcassets */; };
+		BFFA01EB1C0B00D400346537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E91C0B00D400346537 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFFA01DA1C0B00D400346537 /* Taask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA01DD1C0B00D400346537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFFA01DF1C0B00D400346537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFFA01E21C0B00D400346537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFFA01E51C0B00D400346537 /* Taask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taask.xcdatamodel; sourceTree = "<group>"; };
+		BFFA01E71C0B00D400346537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFA01EA1C0B00D400346537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFFA01EC1C0B00D400346537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFA01D71C0B00D400346537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFA01D11C0B00D400346537 = {
+			isa = PBXGroup;
+			children = (
+				BFFA01DC1C0B00D400346537 /* Taask */,
+				BFFA01DB1C0B00D400346537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFA01DB1C0B00D400346537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA01DA1C0B00D400346537 /* Taask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFA01DC1C0B00D400346537 /* Taask */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA01DD1C0B00D400346537 /* AppDelegate.swift */,
+				BFFA01DF1C0B00D400346537 /* ViewController.swift */,
+				BFFA01E11C0B00D400346537 /* Main.storyboard */,
+				BFFA01E71C0B00D400346537 /* Assets.xcassets */,
+				BFFA01E91C0B00D400346537 /* LaunchScreen.storyboard */,
+				BFFA01EC1C0B00D400346537 /* Info.plist */,
+				BFFA01E41C0B00D400346537 /* Taask.xcdatamodeld */,
+			);
+			path = Taask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFA01D91C0B00D400346537 /* Taask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA01EF1C0B00D400346537 /* Build configuration list for PBXNativeTarget "Taask" */;
+			buildPhases = (
+				BFFA01D61C0B00D400346537 /* Sources */,
+				BFFA01D71C0B00D400346537 /* Frameworks */,
+				BFFA01D81C0B00D400346537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taask;
+			productName = Taask;
+			productReference = BFFA01DA1C0B00D400346537 /* Taask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFA01D21C0B00D400346537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Emiliyan Gospodinov";
+				TargetAttributes = {
+					BFFA01D91C0B00D400346537 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BFFA01D51C0B00D400346537 /* Build configuration list for PBXProject "Taask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFA01D11C0B00D400346537;
+			productRefGroup = BFFA01DB1C0B00D400346537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFA01D91C0B00D400346537 /* Taask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFA01D81C0B00D400346537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA01EB1C0B00D400346537 /* LaunchScreen.storyboard in Resources */,
+				BFFA01E81C0B00D400346537 /* Assets.xcassets in Resources */,
+				BFFA01E31C0B00D400346537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFA01D61C0B00D400346537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA01E61C0B00D400346537 /* Taask.xcdatamodeld in Sources */,
+				BFFA01E01C0B00D400346537 /* ViewController.swift in Sources */,
+				BFFA01DE1C0B00D400346537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFFA01E11C0B00D400346537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA01E21C0B00D400346537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFFA01E91C0B00D400346537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFA01EA1C0B00D400346537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFFA01ED1C0B00D400346537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFA01EE1C0B00D400346537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFA01F01C0B00D400346537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emonidi.Taask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFFA01F11C0B00D400346537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Taask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emonidi.Taask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFA01D51C0B00D400346537 /* Build configuration list for PBXProject "Taask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA01ED1C0B00D400346537 /* Debug */,
+				BFFA01EE1C0B00D400346537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA01EF1C0B00D400346537 /* Build configuration list for PBXNativeTarget "Taask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA01F01C0B00D400346537 /* Debug */,
+				BFFA01F11C0B00D400346537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFFA01E41C0B00D400346537 /* Taask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFFA01E51C0B00D400346537 /* Taask.xcdatamodel */,
+			);
+			currentVersion = BFFA01E51C0B00D400346537 /* Taask.xcdatamodel */;
+			path = Taask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFFA01D21C0B00D400346537 /* Project object */;
+}
