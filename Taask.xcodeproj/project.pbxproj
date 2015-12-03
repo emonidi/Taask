@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFCB117D1C0C1D2800324D81 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB117C1C0C1D2800324D81 /* NavController.swift */; };
+		BFCB117F1C0C277A00324D81 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB117E1C0C277A00324D81 /* Item.swift */; };
 		BFFA01DE1C0B00D400346537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01DD1C0B00D400346537 /* AppDelegate.swift */; };
 		BFFA01E01C0B00D400346537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01DF1C0B00D400346537 /* ViewController.swift */; };
 		BFFA01E31C0B00D400346537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E11C0B00D400346537 /* Main.storyboard */; };
 		BFFA01E61C0B00D400346537 /* Taask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFFA01E41C0B00D400346537 /* Taask.xcdatamodeld */; };
 		BFFA01E81C0B00D400346537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E71C0B00D400346537 /* Assets.xcassets */; };
 		BFFA01EB1C0B00D400346537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFA01E91C0B00D400346537 /* LaunchScreen.storyboard */; };
+		BFFA02431C0B582400346537 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA02421C0B582400346537 /* TableViewCell.swift */; };
+		BFFA02451C0B5D6F00346537 /* AddToDoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA02441C0B5D6F00346537 /* AddToDoController.swift */; };
+		BFFA02491C0B5F4C00346537 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA02481C0B5F4C00346537 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFCB117C1C0C1D2800324D81 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavController.swift; path = ../NavController.swift; sourceTree = "<group>"; };
+		BFCB117E1C0C277A00324D81 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BFFA01DA1C0B00D400346537 /* Taask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFA01DD1C0B00D400346537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFFA01DF1C0B00D400346537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		BFFA01E71C0B00D400346537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFFA01EA1C0B00D400346537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFFA01EC1C0B00D400346537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFA02421C0B582400346537 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BFFA02441C0B5D6F00346537 /* AddToDoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoController.swift; sourceTree = "<group>"; };
+		BFFA02481C0B5F4C00346537 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		BFFA01DC1C0B00D400346537 /* Taask */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB117C1C0C1D2800324D81 /* NavController.swift */,
+				BFFA02481C0B5F4C00346537 /* Model.swift */,
+				BFCB117E1C0C277A00324D81 /* Item.swift */,
 				BFFA01DD1C0B00D400346537 /* AppDelegate.swift */,
 				BFFA01DF1C0B00D400346537 /* ViewController.swift */,
 				BFFA01E11C0B00D400346537 /* Main.storyboard */,
+				BFFA02421C0B582400346537 /* TableViewCell.swift */,
+				BFFA02441C0B5D6F00346537 /* AddToDoController.swift */,
 				BFFA01E71C0B00D400346537 /* Assets.xcassets */,
 				BFFA01E91C0B00D400346537 /* LaunchScreen.storyboard */,
 				BFFA01EC1C0B00D400346537 /* Info.plist */,
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFA01E61C0B00D400346537 /* Taask.xcdatamodeld in Sources */,
+				BFFA02431C0B582400346537 /* TableViewCell.swift in Sources */,
 				BFFA01E01C0B00D400346537 /* ViewController.swift in Sources */,
+				BFCB117D1C0C1D2800324D81 /* NavController.swift in Sources */,
+				BFCB117F1C0C277A00324D81 /* Item.swift in Sources */,
+				BFFA02491C0B5F4C00346537 /* Model.swift in Sources */,
 				BFFA01DE1C0B00D400346537 /* AppDelegate.swift in Sources */,
+				BFFA02451C0B5D6F00346537 /* AddToDoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +310,7 @@
 				BFFA01F11C0B00D400346537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
